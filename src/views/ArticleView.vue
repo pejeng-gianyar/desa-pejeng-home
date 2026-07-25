@@ -62,39 +62,38 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading title="Artikel Lainnya" subtitle="Jelajahi pura-pura bersejarah lainnya di Desa Pejeng" />
         <div class="flex flex-wrap justify-center gap-6">
-          <BaseCard
+          <router-link
             v-for="other in otherArticles"
             :key="other.slug"
-            hoverable
-            class="group w-full sm:w-[calc(50%-12px)] max-w-md"
+            :to="`/artikel/${other.slug}`"
+            class="w-full sm:w-[calc(50%-12px)] max-w-md flex flex-col"
           >
-            <template #image>
-              <div class="w-full h-full overflow-hidden">
-                <img
-                  :src="other.image"
-                  :alt="other.title"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  loading="lazy"
-                />
-              </div>
-            </template>
-            <span class="inline-block bg-gold/20 text-brown text-xs font-medium px-2.5 py-1 rounded-full mb-2 border border-gold/20">
-              {{ other.lokasi }}
-            </span>
-            <h3 class="text-lg font-bold text-brown mb-2 group-hover:text-sage transition-colors">
-              {{ other.title }}
-            </h3>
-            <p class="text-brown/70 text-sm leading-relaxed mb-4 flex-grow">
-              {{ other.excerpt }}
-            </p>
-            <router-link
-              :to="`/artikel/${other.slug}`"
-              class="text-sage font-medium text-sm hover:text-sage/80 transition-colors inline-flex items-center gap-1 group/link mt-auto"
-            >
-              Baca selengkapnya
-              <span class="transition-transform duration-300 group-hover/link:translate-x-1" aria-hidden="true">&rarr;</span>
-            </router-link>
-          </BaseCard>
+            <BaseCard hoverable class="group h-full w-full">
+              <template #image>
+                <div class="w-full h-full overflow-hidden">
+                  <img
+                    :src="other.image"
+                    :alt="other.title"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    loading="lazy"
+                  />
+                </div>
+              </template>
+              <span class="inline-block bg-gold/20 text-brown text-xs font-medium px-2.5 py-1 rounded-full mb-2 border border-gold/20">
+                {{ other.lokasi }}
+              </span>
+              <h3 class="text-lg font-bold text-brown mb-2 group-hover:text-sage transition-colors">
+                {{ other.title }}
+              </h3>
+              <p class="text-brown/70 text-sm leading-relaxed mb-4 flex-grow">
+                {{ other.excerpt }}
+              </p>
+              <span class="text-sage font-medium text-sm hover:text-sage/80 transition-colors inline-flex items-center gap-1 group/link mt-auto">
+                Baca selengkapnya
+                <span class="transition-transform duration-300 group-hover/link:translate-x-1" aria-hidden="true">&rarr;</span>
+              </span>
+            </BaseCard>
+          </router-link>
         </div>
       </div>
     </section>
