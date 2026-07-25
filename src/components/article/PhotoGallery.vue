@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto px-margin-mobile md:px-gutter">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto px-margin-mobile md:px-gutter">
       <div
         v-for="(_, index) in images"
         :key="index"

@@ -13,9 +13,9 @@
           v-for="article in articles"
           :key="article.slug"
           :to="`/artikel/${article.slug}`"
-          class="block"
+          class="block h-full"
         >
-          <BaseCard hoverable class="group">
+          <BaseCard hoverable class="group h-full">
             <template #image>
               <div class="w-full h-full overflow-hidden">
                 <img
@@ -32,10 +32,10 @@
             <h3 class="text-lg font-bold text-brown mb-2 group-hover:text-sage transition-colors">
               {{ article.title }}
             </h3>
-            <p class="text-brown/70 text-sm leading-relaxed mb-4">
+            <p class="text-brown/70 text-sm leading-relaxed mb-4 flex-grow">
               {{ article.excerpt }}
             </p>
-            <span class="text-sage font-medium text-sm inline-flex items-center gap-1">
+            <span class="text-sage font-medium text-sm inline-flex items-center gap-1 mt-auto">
               Baca selengkapnya
               <span aria-hidden="true">&rarr;</span>
             </span>

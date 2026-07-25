@@ -84,12 +84,12 @@
             <h3 class="text-lg font-bold text-brown mb-2 group-hover:text-sage transition-colors">
               {{ other.title }}
             </h3>
-            <p class="text-brown/70 text-sm leading-relaxed mb-4">
+            <p class="text-brown/70 text-sm leading-relaxed mb-4 flex-grow">
               {{ other.excerpt }}
             </p>
             <router-link
               :to="`/artikel/${other.slug}`"
-              class="text-sage font-medium text-sm hover:text-sage/80 transition-colors inline-flex items-center gap-1 group/link"
+              class="text-sage font-medium text-sm hover:text-sage/80 transition-colors inline-flex items-center gap-1 group/link mt-auto"
             >
               Baca selengkapnya
               <span class="transition-transform duration-300 group-hover/link:translate-x-1" aria-hidden="true">&rarr;</span>
