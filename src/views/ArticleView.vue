@@ -5,8 +5,6 @@
     <main>
       <ArticleHero :article="article" />
 
-      <ArticleMobileToc />
-
       <PhotoGallery :images="article.gallery" />
 
       <div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -111,7 +109,6 @@ import Footer from '../components/layout/Footer.vue'
 import ArticleHero from '../components/article/ArticleHero.vue'
 import ArticleContent from '../components/article/ArticleContent.vue'
 import PlaceSidebar from '../components/article/PlaceSidebar.vue'
-import ArticleMobileToc from '../components/article/ArticleMobileToc.vue'
 import BaseCard from '../components/common/BaseCard.vue'
 import SectionHeading from '../components/common/SectionHeading.vue'
 import PhotoGallery from '../components/article/PhotoGallery.vue'

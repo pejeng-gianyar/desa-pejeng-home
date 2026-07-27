@@ -1,4 +1,12 @@
 export default `
+  <div class="mb-8 fade-in">
+    <p class="font-body text-body-sm text-on-surface-variant italic border-l-2 border-accent-gold pl-4">
+      Narasumber: Jero Mangku Penataran Sasih<br>
+      Disunting oleh: Tim KKN PNB Desa Pejeng 2026
+    </p>
+  </div>
+
+
   <section class="mb-section-gap fade-in text-justify" id="introduction">
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap drop-cap">
       Di Desa Pejeng, Kecamatan Tampaksiring, Kabupaten Gianyar, berdiri Pura Penataran Sasih, salah satu pura kuno di Bali yang menyimpan nilai sejarah, budaya, dan spiritual yang tinggi sebagai peninggalan penting peradaban Bali Kuno. Nama "Pejeng" sendiri disebut berasal dari kata "pajeng" yang berarti payung, simbol perlindungan raja-raja Bali Kuno kepada rakyatnya. Ada pula yang meyakini nama ini berasal dari kata "pajang" dalam bahasa Jawa Kuno yang berarti sinar, melambangkan pusat penyebaran kejayaan dan kemakmuran ke seluruh wilayah Bali.
@@ -51,7 +59,7 @@ export default `
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
       Karena statusnya sebagai tempat suci yang masih aktif menjalankan tradisi turun-temurun, pengunjung diimbau berpakaian sopan dengan mengenakan kamen dan selendang yang diikat di pinggang. Wanita yang sedang berhalangan (menstruasi) dimohon tidak memasuki area utama pura demi menjaga kesucian energi tempat ini. Pengunjung juga diharapkan tidak memanjat atau menyentuh sembarangan Nekara Perunggu dan situs batu bersejarah lain, serta menjaga keheningan terutama menjelang dan saat prosesi Pujawali maupun Piodalan berlangsung.
     </p>
-    <p class="font-caption text-caption text-on-surface-variant italic">Catatan: narasi di atas disusun berdasarkan transkrip wawancara langsung bersama Jero Mangku Pura Penataran Sasih, Made Semara Putra (18 Juli 2026). Beberapa angka tahun (misalnya usia Nekara Pejeng dan masa berdirinya struktur pura) disampaikan secara lisan dan dapat berbeda dari catatan tertulis di sumber lain seperti Balai Pelestarian Cagar Budaya Bali atau publikasi akademik. Disarankan tetap dilakukan verifikasi silang sebelum dipublikasikan secara resmi.</p>
+
   </section>
 
   <section class="mb-section-gap fade-in" id="referensi">

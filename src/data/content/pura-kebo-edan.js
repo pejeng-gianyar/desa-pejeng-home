@@ -1,4 +1,11 @@
 export default `
+  <div class="mb-8 fade-in">
+    <p class="font-body text-body-sm text-on-surface-variant italic border-l-2 border-accent-gold pl-4">
+      Narasumber: Ngakan Putu Duaja, S.Pd<br>
+      Disunting oleh: Tim KKN PNB Desa Pejeng 2026
+    </p>
+  </div>
+
   <section class="mb-section-gap fade-in text-justify" id="introduction">
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap drop-cap">
       Terletak di Banjar Intaran, Desa Pejeng, Pura Kebo Edan berdiri sebagai salah satu situs spiritual tertua dan paling sarat makna di Bali. Namun sebelum melangkah lebih jauh, ada satu mitos yang perlu diluruskan: nama "Kebo Edan" sama sekali tidak berarti "kerbau gila". Menurut penuturan langsung pemangku pura, Ngakan Putu Duaja, S.Pd., kata "Kebo" pada masa lampau adalah gelar penghormatan bagi orang sakti atau arsitek yang hebat, sedangkan "Edan" diambil dari bahasa Jawa yang bermakna luar biasa atau dahsyat. Dengan demikian, Kebo Edan lebih tepat dimaknai sebagai sebutan bagi sosok arsitek spiritual yang memiliki kemampuan luar biasa.
@@ -57,6 +64,5 @@ export default `
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
       Karena statusnya sebagai tempat suci yang masih sangat aktif, termasuk digunakan oleh para praktisi meditasi yang mencari keheningan, pengunjung diimbau untuk berpakaian sopan dengan mengenakan kamen dan selendang yang diikat di pinggang. Wanita yang sedang berhalangan (menstruasi) dimohon untuk tidak memasuki area utama pura demi menjaga kesucian energi tempat ini. Pengunjung juga diharapkan menjaga keheningan, khususnya di sekitar area yang digunakan untuk bermeditasi, serta dilarang keras menyentuh atau menaiki situs batu dan arca prasejarah yang ada di kompleks pura.
     </p>
-    <p class="font-caption text-caption text-on-surface-variant italic">Catatan: narasi di atas disusun berdasarkan transkrip wawancara langsung bersama pemangku Pura Kebo Edan, Ngakan Putu Duaja, S.Pd. (19 Juli 2026). Beberapa detail seperti tahun pasti kedatangan Patih Kebo Parud ke Bali disampaikan secara lisan dan dapat berbeda dengan catatan tertulis di sumber lain. Oleh karena itu, disarankan tetap dilakukan verifikasi silang dengan Balai Pelestarian Cagar Budaya Bali sebelum dipublikasikan secara resmi.</p>
   </section>
 `

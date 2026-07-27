@@ -1,4 +1,12 @@
 export default `
+  <div class="mb-8 fade-in">
+    <p class="font-body text-body-sm text-on-surface-variant italic border-l-2 border-accent-gold pl-4">
+      Narasumber: Jero Mangku Pura Puser Ing Jagat<br>
+      Disunting oleh: Tim KKN PNB Desa Pejeng 2026
+    </p>
+  </div>
+
+
   <section class="mb-section-gap fade-in" id="asal-usul">
     <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Asal Usul Nama "Puser Ing Jagat"</h2>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap drop-cap">

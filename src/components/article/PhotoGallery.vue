@@ -12,15 +12,15 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto px-margin-mobile md:px-gutter">
+    <div class="flex overflow-x-auto gap-4 pb-4 px-margin-mobile md:px-gutter snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
       <div
         v-for="(_, index) in images"
         :key="index"
-        class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-brown/5 border border-outline-variant/20 group transition-all duration-300 hover:shadow-md"
+        class="flex-none w-[85%] sm:w-[60%] md:w-[45%] bg-brown/5 border border-outline-variant/20 aspect-video rounded-xl flex items-center justify-center snap-center transition-transform duration-300 hover:scale-[1.02] cursor-pointer hover:shadow-md"
         @click="openLightbox(index)"
       >
-        <div class="w-full h-full flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
-          <span class="material-symbols-outlined text-4xl text-brown/20">photo_camera</span>
+        <div class="w-full h-full flex items-center justify-center">
+          <span class="material-symbols-outlined text-4xl text-brown/20 group-hover:scale-110 transition-transform">photo_camera</span>
         </div>
       </div>
     </div>
