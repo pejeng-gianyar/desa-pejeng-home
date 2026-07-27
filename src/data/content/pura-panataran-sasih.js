@@ -53,4 +53,14 @@ export default `
     </p>
     <p class="font-caption text-caption text-on-surface-variant italic">Catatan: narasi di atas disusun berdasarkan transkrip wawancara langsung bersama Jero Mangku Pura Penataran Sasih, Made Semara Putra (18 Juli 2026). Beberapa angka tahun (misalnya usia Nekara Pejeng dan masa berdirinya struktur pura) disampaikan secara lisan dan dapat berbeda dari catatan tertulis di sumber lain seperti Balai Pelestarian Cagar Budaya Bali atau publikasi akademik. Disarankan tetap dilakukan verifikasi silang sebelum dipublikasikan secara resmi.</p>
   </section>
+
+  <section class="mb-section-gap fade-in" id="referensi">
+    <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">📚 Referensi</h3>
+    <ul class="list-disc list-outside ml-6 font-body text-body-sm md:text-body-md mb-paragraph-gap space-y-2 text-on-surface-variant break-all">
+      <li><a href="https://id.wikipedia.org/wiki/Bulan_Pejeng" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://id.wikipedia.org/wiki/Bulan_Pejeng</a></li>
+      <li><a href="https://www.kompas.com/stori/read/2023/07/31/110000779/nekara-pejeng--sejarah-penemuan-dan-fungsinya" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://www.kompas.com/stori/read/2023/07/31/110000779/nekara-pejeng--sejarah-penemuan-dan-fungsinya</a></li>
+      <li><a href="https://baliexpress.jawapos.com/balinese/2309200056/pura-penataran-sasih-pejeng-sejarah-dan-signifikansinya-dalam-konteks-hindu-bali-nekara-dan-kebo-iwa" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://baliexpress.jawapos.com/balinese/2309200056/pura-penataran-sasih-pejeng-sejarah-dan-signifikansinya-dalam-konteks-hindu-bali-nekara-dan-kebo-iwa</a></li>
+      <li><a href="https://www.pariwisata.denpasarkota.go.id/artikel/prasasti-blanjong?utm_source" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://www.pariwisata.denpasarkota.go.id/artikel/prasasti-blanjong?utm_source</a></li>
+    </ul>
+  </section>
 `
