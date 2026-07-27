@@ -6,63 +6,74 @@ export default `
     </p>
   </div>
 
-
   <section class="mb-section-gap fade-in text-justify" id="introduction">
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap drop-cap">
-      Di Desa Pejeng, Kecamatan Tampaksiring, Kabupaten Gianyar, berdiri Pura Penataran Sasih, salah satu pura kuno di Bali yang menyimpan nilai sejarah, budaya, dan spiritual yang tinggi sebagai peninggalan penting peradaban Bali Kuno. Nama "Pejeng" sendiri disebut berasal dari kata "pajeng" yang berarti payung, simbol perlindungan raja-raja Bali Kuno kepada rakyatnya. Ada pula yang meyakini nama ini berasal dari kata "pajang" dalam bahasa Jawa Kuno yang berarti sinar, melambangkan pusat penyebaran kejayaan dan kemakmuran ke seluruh wilayah Bali.
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap drop-cap">
+      Pura Penataran Sasih yang terletak di Desa Pejeng merupakan salah satu kawasan spiritual tertua di Bali. Cikal bakal keberadaannya diperkirakan telah ada sejak masa prasejarah, jauh sebelum Kerajaan Majapahit maupun agama Hindu berkembang di pulau ini. Kawasan ini bukan sekadar tempat pemujaan, melainkan saksi atas perjalanan panjang masyarakat Bali Kuno dalam memahami alam semesta.
     </p>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Menurut penjelasan Jero Mangku Made Semara Putra, nama Penataran Sasih sendiri terbentuk dari dua kata: "penataran" yang berarti altar atau tempat pemujaan, dan "sasih" yang berarti bulan. Dengan demikian, Penataran Sasih dimaknai sebagai altar pemujaan terhadap bulan, yang dalam kepercayaan Hindu Bali dikaitkan dengan pemujaan kepada Ida Sang Hyang Ratih atau Dewi Bulan, yang melambangkan unsur feminin dan berpasangan dengan Dewa Surya sebagai unsur maskulin, membentuk simbol keseimbangan alam semesta.
-    </p>
-  </section>
-
-  <section class="mb-section-gap fade-in text-justify" id="history">
-    <h2 class="text-justify font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Jejak Prasejarah dan Kerajaan Bali Kuno</h2>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Berdasarkan penuturan Jero Mangku, kawasan Pura Penataran Sasih dipercaya telah memiliki cikal bakal sejak masa prasejarah, jauh sebelum Kerajaan Majapahit maupun agama Hindu berkembang di Bali. Pada masa itu, pura belum terbentuk secara struktural, namun ditandai oleh peninggalan-peninggalan prasejarah yang diperkirakan telah ada sejak ribuan tahun sebelum Masehi. Struktur pura yang lebih tertata baru mulai terbentuk pada masa Kerajaan Bali Kuno, sekitar abad ke-9 hingga ke-10 Masehi, seiring pemerintahan Raja Sri Kesari Warmadewa, tokoh sejarah yang keberadaannya tercatat lewat sejumlah prasasti, di antaranya Prasasti Blanjong di Sanur yang berangka tahun 835 Saka atau sekitar 913 Masehi.
-    </p>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Sebelum agama-agama yang dikenal di Bali saat ini berkembang, Jero Mangku menjelaskan bahwa masyarakat Pejeng telah mengenal sistem kepercayaan animisme dan dinamisme, tercermin dari penghormatan terhadap benda-benda yang dianggap memiliki kekuatan suci, salah satunya Nekara Perunggu yang dikenal sebagai Bulan Pejeng. Keberadaannya menunjukkan bahwa masyarakat pada masa itu telah memiliki dasar kepercayaan yang kuat terhadap kekuatan alam dan roh leluhur, jauh sebelum ajaran Hindu berkembang di Bali.
-    </p>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Keberadaan nekara ini juga terikat pada legenda yang berkembang turun-temurun mengenai asal-usul nama pura. Konon dahulu terdapat dua bulan di langit, dan salah satunya jatuh di wilayah Pejeng. Bulan tersebut memancarkan cahaya sangat terang sehingga Pejeng tidak pernah gelap di malam hari, hingga akhirnya cahaya itu padam setelah seseorang menodai kesuciannya. Meski bersifat legenda, kisah ini menjadi bagian penting dari identitas budaya masyarakat Pejeng hingga kini.
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Terdapat sejumlah pandangan mengenai asal-usul nama Pejeng. Sebagian sumber menyebutkan bahwa nama tersebut berasal dari kata “pajeng” (payung), yang melambangkan perlindungan raja-raja Bali Kuno terhadap rakyatnya. Sumber lain meyakini bahwa nama ini berasal dari kata “pajang” dalam bahasa Jawa Kuno yang berarti sinar, yang merepresentasikan pusat penyebaran kejayaan dan kemakmuran ke seluruh Bali. Terlepas dari perbedaan pandangan tersebut, kawasan ini diyakini merupakan salah satu pusat kejayaan peradaban Bali Kuno.
     </p>
   </section>
 
-  <section class="mb-section-gap fade-in text-justify" id="architecture">
-    <h2 class="text-justify font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Nekara "Bulan Pejeng" dan Konsep Tri Mandala</h2>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Salah satu peninggalan paling terkenal di pura ini adalah Nekara Perunggu Bulan Pejeng, yang menurut penjelasan Jero Mangku memiliki diameter sekitar 1,60 meter dan tinggi sekitar 186,5 cm, sesuai data yang tercatat oleh Balai Pelestarian Cagar Budaya Bali. Bentuknya menyerupai kendang Bali, dan dari berbagai hasil penelitian diperkirakan berasal dari masa prasejarah dengan fungsi sebagai genderang perang maupun sarana upacara ritual. Bagi masyarakat setempat, nekara ini dipercaya sebagai benda suci yang digunakan sebagai media untuk memohon sesuatu, termasuk turunnya hujan di masa paceklik.
+  <section class="mb-section-gap fade-in text-justify" id="peninggalan">
+    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Peninggalan Utama di Kawasan Utamaning Mandala</h2>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Terdapat tiga peninggalan penting yang dapat diamati di kawasan Utamaning Mandala pura ini.
     </p>
-    <blockquote class="my-12 px-8 py-4 border-l-4 border-accent-gold rounded-r-xl text-justify">
-      <p class="font-display text-pull-quote text-primary italic">
-        "Konsep gunung dan laut lebih tepat dipahami sebagai konsep Lingga dan Yoni, yaitu perpaduan dua unsur yang menjadi sumber terciptanya kehidupan."
-      </p>
-      <cite class="block mt-4 font-label-caps text-label-caps text-on-surface-variant">MADE SEMARA PUTRA, JERO MANGKU PURA PENATARAN SASIH</cite>
-    </blockquote>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Pura Penataran Sasih menerapkan konsep Tri Mandala, yaitu pembagian kawasan pura menjadi tiga wilayah. Utamaning Mandala merupakan kawasan paling suci, tempat berdirinya Padmasana sebagai pemujaan Ida Sang Hyang Widhi Wasa, Pelinggih Ida Ratu Sasih, serta pelinggih-pelinggih lain seperti Pengaruman, Gedong Agung, Gedong Kelod, Gedong Sakenan, Gedong Kaja, dan Gedong Kauh, di samping Bale Gede sebagai tempat penyajian banten saat upacara. Madyaning Mandala menjadi area tengah untuk kegiatan penunjang upacara seperti wantilan, sementara Nista Mandala adalah kawasan terluar yang menurut Jero Mangku kini sebagian digunakan sebagai area parkir dan kantor Desa Pejeng, meski dahulu merupakan alun-alun, jantung aktivitas masyarakat.
+    
+    <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">1. Nekara Perunggu “Bulan Pejeng”</h3>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Nekara perunggu berdiameter 160 cm dan tinggi 186,5 cm ini merupakan salah satu nekara terbesar di dunia. Bentuknya menyerupai kendang Bali. Berdasarkan penelitian arkeologi, benda ini diyakini pernah berfungsi sebagai genderang perang sekaligus sarana upacara ritual pada masa prasejarah. Sejumlah peneliti memperkirakan usia peninggalan ini berasal dari sekitar tahun 500 SM hingga 300 SM, lebih muda dibandingkan perkiraan awal yang menyebutkan usianya mencapai ribuan tahun sebelum Masehi. Bagi masyarakat setempat, nekara ini merupakan benda paling sakral yang digunakan sebagai media permohonan turunnya hujan pada masa kemarau panjang yang mengancam kehidupan agraris masyarakat Pejeng.
     </p>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Jero Mangku menjelaskan bahwa jauh sebelum ajaran Hindu berkembang, masyarakat telah mengenal konsep kosmologi yang menjadikan gunung sebagai arah utara dan laut sebagai arah selatan. Seiring berkembangnya Hindu, konsep ini dipadukan dengan manifestasi Tuhan: arah utara dikaitkan dengan Ida Bhatara Wisnu berbusana hitam, arah selatan dengan Ida Bhatara Brahma berbusana merah, ditambah pelinggih yang diposisikan sebagai Ida Bhatara Mahadewa. Gunung dimaknai sebagai hulu/kepala yang melambangkan unsur maskulin, sedangkan laut dimaknai sebagai hilir/kaki yang melambangkan unsur feminin, sebuah filosofi yang oleh Jero Mangku lebih tepat dipahami sebagai konsep Lingga dan Yoni. Filosofi ini masih diterapkan dalam setiap upacara, tercermin dari keberadaan Gedong Sakenan dan pelinggih yang merepresentasikan Gunung Batur.
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Nama “Bulan Pejeng” yang melekat pada nekara ini berasal dari legenda yang diwariskan secara turun-temurun. Menurut kisah tersebut, pada masa lampau terdapat dua bulan di langit, dan salah satunya jatuh ke wilayah Pejeng. Cahayanya konon begitu terang sehingga malam hari di Pejeng tidak pernah gelap, hingga cahaya tersebut padam setelah kesuciannya dinodai oleh seseorang. Versi lain dari legenda setempat mengaitkan keberadaan nekara ini dengan Kebo Iwa, tokoh legendaris pemahat candi tebing Gunung Kawi, yang oleh sebagian masyarakat diyakini sebagai pemilik subang (anting) berukuran raksasa tersebut. Kisah ini merupakan legenda yang diwariskan secara lisan, namun tetap memiliki keterkaitan erat dengan identitas budaya masyarakat Pejeng hingga saat ini.
+    </p>
+
+    <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">2. Padmasana dan Pelinggih Ida Ratu Sasih</h3>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Di kawasan Utamaning Mandala terdapat Padmasana sebagai tempat pemujaan Ida Sang Hyang Widhi Wasa, serta Pelinggih Ida Ratu Sasih yang berdiri berdampingan dengan pelinggih-pelinggih lain, yaitu Pengaruman, Gedong Agung, Gedong Kelod, Gedong Sakenan, Gedong Kaja, dan Gedong Kauh. Nama Penataran Sasih memiliki arti altar pemujaan bulan, sebagai bentuk penghormatan kepada Ida Sang Hyang Ratih, Dewi Bulan, yang dalam kosmologi Hindu Bali melambangkan unsur feminin dan berpasangan dengan Dewa Surya yang melambangkan unsur maskulin. Kedua unsur tersebut merupakan simbol keseimbangan alam semesta.
+    </p>
+
+    <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">3. Gedong Sakenan dan Pelinggih Gunung Batur</h3>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Terdapat dua pelinggih yang secara fisik tampak berjauhan namun memiliki keterkaitan makna, yaitu Gedong Sakenan yang melambangkan unsur laut dan pelinggih yang merepresentasikan Gunung Batur sebagai lambang unsur gunung. Gunung dimaknai sebagai hulu atau kepala yang bersifat maskulin, sedangkan laut dimaknai sebagai hilir atau kaki yang bersifat feminin. Pertemuan kedua unsur tersebut merupakan wujud konsep Lingga dan Yoni, yaitu perpaduan dua unsur berlawanan yang diyakini menjadi sumber terciptanya kehidupan. Oleh karena itu, setiap pelaksanaan persembahyangan di pura ini senantiasa diawali dengan pemujaan terhadap prelingga yang berstana di gunung dan laut.
     </p>
   </section>
 
-  <section class="mb-section-gap fade-in text-justify" id="present">
-    <h2 class="text-justify font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Kehidupan Agraris, Pujawali, dan Piodalan</h2>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Desa Pejeng pada masa lampau merupakan kawasan agraris yang diapit oleh Sungai Pakerisan dan Sungai Petanu, sumber utama pengairan lahan pertanian. Menurut Jero Mangku, wilayah ini pernah mengalami kemarau panjang yang menyebabkan debit air kedua sungai menurun dan hasil pertanian gagal. Pada masa itu, masyarakat belum mengenal agama seperti sekarang, sehingga mereka menjadikan Pura Penataran Sasih sebagai altar pemujaan dan Nekara Perunggu sebagai media untuk memohon turunnya hujan, sebuah kepercayaan yang diwariskan turun-temurun dan tetap dikenang sebagai bagian dari identitas pura hingga kini, meski Desa Pejeng telah banyak berubah menjadi kawasan permukiman dan vila di sekitar Ubud.
+  <section class="mb-section-gap fade-in text-justify" id="sejarah">
+    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Jejak Sejarah Peradaban Bali Kuno</h2>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Sebelum agama Hindu dan Kerajaan Majapahit memberikan pengaruhnya di Bali, kawasan Pejeng telah menjadi pusat kehidupan spiritual masyarakat prasejarah. Benda-benda kuno yang tersimpan di kawasan ini diperkirakan telah ada sejak ribuan tahun sebelum Masehi, dan menjadi bukti bahwa masyarakat pada masa tersebut telah mengenal sistem kepercayaan animisme dan dinamisme, yaitu penghormatan terhadap benda dan kekuatan alam yang diyakini memiliki daya suci, jauh sebelum konsep agama formal dikenal. Sejumlah kajian arkeologi memperkirakan bahwa nekara ini berasal dari beberapa abad sebelum Masehi dan merupakan hasil puncak teknologi pengolahan logam pada masa perundagian, sekitar dua ribu tahun yang lalu.
     </p>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Sebagai salah satu Pura Kahyangan Jagat, Pura Penataran Sasih memiliki dua tradisi upacara yang menurut Jero Mangku sering disamakan masyarakat, padahal maknanya berbeda. Pujawali adalah upacara besar yang dilaksanakan setiap Purnama Sasih Kesanga (bulan kesembilan penanggalan Bali), berdekatan dengan rangkaian Hari Raya Nyepi, berbeda dari Pura Besakih dan Pura Batur yang melaksanakan pujawali pada Sasih Kadasa (bulan kesepuluh). Piodalan, di sisi lain, dilaksanakan setiap 6 bulan atau 210 hari menurut kalender wuku, tepatnya pada Redite Manis Kuningan, dan dapat dianalogikan seperti otonan dalam kehidupan manusia sebagai bentuk penghormatan berdasarkan kearifan lokal.
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Struktur pura yang lebih tertata mulai terbentuk pada sekitar abad ke-12 Masehi, bertepatan dengan masa pemerintahan Raja Sri Kesari Warmadewa, tokoh sejarah Bali Kuno yang namanya tercatat dalam Prasasti Blanjong di Sanur pada sekitar tahun 913 Masehi. Pada masa tersebut, kawasan Pejeng yang terletak di antara Sungai Pakerisan dan Sungai Petanu berkembang menjadi wilayah agraris yang subur sekaligus salah satu pusat penting perkembangan peradaban Bali Kuno. Berbagai kajian arkeologi turut menunjukkan bahwa kawasan Bedulu dan Pejeng diduga berfungsi sebagai salah satu pusat pemerintahan sekaligus pusat kegiatan keagamaan pada masa Kerajaan Bali Kuno, sebagaimana ditunjukkan oleh banyaknya temuan prasasti, bangunan suci, dan peninggalan arkeologi di wilayah tersebut.
     </p>
-    <p class="text-justify font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Karena statusnya sebagai tempat suci yang masih aktif menjalankan tradisi turun-temurun, pengunjung diimbau berpakaian sopan dengan mengenakan kamen dan selendang yang diikat di pinggang. Wanita yang sedang menstruasi dimohon tidak memasuki area utama pura demi menjaga kesucian energi tempat ini. Pengunjung juga diharapkan tidak memanjat atau menyentuh sembarangan Nekara Perunggu dan situs batu bersejarah lain, serta menjaga keheningan terutama menjelang dan saat prosesi Pujawali maupun Piodalan berlangsung.
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Kompleksitas spiritual kawasan ini tercermin melalui penerapan konsep Tri Mandala, yaitu pembagian kawasan pura menjadi Utamaning Mandala (area paling suci), Madyaning Mandala (area kegiatan penunjang), dan Nista Mandala (area terluar, yang sebagian kini difungsikan sebagai lahan parkir dan kantor Desa Pejeng, namun pada masa lampau merupakan alun-alun yang menjadi pusat aktivitas masyarakat). Konsep tersebut berpadu dengan kosmologi kuno yang menempatkan gunung sebagai arah utara dan laut sebagai arah selatan, kosmologi yang kemudian melebur dengan manifestasi Hindu, yaitu Ida Bhatara Wisnu di utara, Ida Bhatara Brahma di selatan, serta Ida Bhatara Mahadewa yang turut berstana di pura ini.
     </p>
-
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Puncak filosofi spiritual kawasan ini tergambar melalui keseimbangan antara gunung dan laut, yang dimaknai lebih mendalam sebagai konsep Lingga dan Yoni, yaitu pertemuan dua unsur berlawanan yang melahirkan kehidupan. Filosofi tersebut mengikat sejarah, kepercayaan, dan alam Pejeng menjadi satu kesatuan yang masih dilestarikan dalam tradisi masyarakat Bali hingga saat ini, mulai dari pemujaan Nekara Perunggu sebagai media permohonan hujan, hingga rangkaian Pujawali yang dilaksanakan setiap Purnama Sasih Kesanga, mendahului rangkaian Hari Raya Nyepi.
+    </p>
   </section>
 
-  <section class="mb-section-gap fade-in text-justify" id="referensi">
+  <section class="mb-section-gap fade-in text-justify" id="panduan">
+    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Panduan Pengunjung & Etika Spiritual</h2>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Pura Penataran Sasih adalah salah satu Pura Khayangan Jagat yang masih aktif menjalankan tradisi keagamaan turun-temurun. Agar kunjungan Anda nyaman dan selaras dengan energi pura, mohon perhatikan hal-hal berikut:
+    </p>
+    <ul class="list-disc list-outside ml-6 font-body text-body-md md:text-body-lg mb-paragraph-gap space-y-2">
+      <li><strong>Wajib Berpakaian Sopan:</strong> gunakan kamen (kain sarung) dan/atau selendang yang diikat di pinggang.</li>
+      <li><strong>Bagi Wanita:</strong> mohon tidak memasuki area pura jika sedang dalam masa menstruasi (datang bulan), demi menjaga kesucian energi area ini.</li>
+      <li><strong>Dilarang Memanjat atau Menyentuh Sembarangan:</strong> terutama pada Nekara Perunggu dan situs-situs batu bersejarah yang menjadi cagar budaya.</li>
+      <li><strong>Jaga Keheningan:</strong> hormati umat yang sedang bersembahyang, terutama menjelang dan saat prosesi Pujawali maupun Piodalan.</li>
+      <li><strong>Waktu Kunjungan Istimewa:</strong> jika ingin menyaksikan upacara besar, datanglah saat Purnama Sasih Kesanga (Pujawali) atau pada Redite Manis Kuningan setiap 210 hari (Piodalan).</li>
+    </ul>
+    <p class="font-body text-body-md md:text-body-lg font-medium italic mt-6 text-primary">
+      Selamat datang dan selamat menyelami jejak peradaban Bali Kuno di Pura Penataran Sasih.
+    </p>
+  </section>
+
+  <section class="mb-section-gap fade-in" id="referensi">
     <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">📚 Referensi</h3>
     <ul class="list-disc list-outside ml-6 font-body text-body-sm md:text-body-md mb-paragraph-gap space-y-2 text-on-surface-variant break-all">
       <li><a href="https://id.wikipedia.org/wiki/Bulan_Pejeng" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://id.wikipedia.org/wiki/Bulan_Pejeng</a></li>
