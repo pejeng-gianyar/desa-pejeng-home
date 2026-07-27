@@ -12,8 +12,31 @@
       </div>
     </div>
 
-    <div class="flex overflow-x-auto gap-4 pb-4 px-margin-mobile md:px-gutter snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-      <div
+    <div class="relative max-w-[1400px] mx-auto group">
+      <!-- Scroll left button (Desktop) -->
+      <button 
+        @click="scrollLeft"
+        class="hidden md:flex absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 shadow-lg rounded-full items-center justify-center text-brown hover:bg-brown hover:text-white transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
+        aria-label="Geser ke kiri"
+      >
+        <span class="material-symbols-outlined text-2xl">chevron_left</span>
+      </button>
+
+      <!-- Scroll right button (Desktop) -->
+      <button 
+        @click="scrollRight"
+        class="hidden md:flex absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 shadow-lg rounded-full items-center justify-center text-brown hover:bg-brown hover:text-white transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
+        aria-label="Geser ke kanan"
+      >
+        <span class="material-symbols-outlined text-2xl">chevron_right</span>
+      </button>
+
+      <div 
+        ref="scrollContainer"
+        @scroll="handleScroll"
+        class="flex overflow-x-auto gap-4 pb-4 px-margin-mobile md:px-gutter snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] scroll-smooth"
+      >
+        <div
         v-for="(_, index) in images"
         :key="index"
         class="flex-none w-[85%] sm:w-[60%] md:w-[45%] bg-brown/5 border border-outline-variant/20 aspect-video rounded-xl flex items-center justify-center snap-center transition-transform duration-300 hover:scale-[1.02] cursor-pointer hover:shadow-md"
@@ -22,6 +45,24 @@
         <div class="w-full h-full flex items-center justify-center">
           <span class="material-symbols-outlined text-4xl text-brown/20 group-hover:scale-110 transition-transform">photo_camera</span>
         </div>
+      </div>
+      </div>
+    </div>
+    
+    <!-- Mobile swipe hint & Progress indicator -->
+    <div class="flex flex-col items-center justify-center gap-3 mt-2">
+      <div class="flex md:hidden items-center justify-center gap-2 text-brown/60 animate-pulse">
+        <span class="material-symbols-outlined text-sm">swipe</span>
+        <span class="text-xs font-medium uppercase tracking-wider">Geser untuk melihat foto</span>
+      </div>
+      
+      <div class="flex items-center justify-center gap-2" v-if="images.length > 1">
+        <div 
+          v-for="(_, idx) in images" 
+          :key="idx"
+          class="h-1.5 rounded-full transition-all duration-300"
+          :class="currentScrollIndex === idx ? 'w-6 bg-accent-gold' : 'w-1.5 bg-brown/20'"
+        ></div>
       </div>
     </div>
 
@@ -84,6 +125,32 @@ const props = defineProps({
 })
 
 const lightboxIndex = ref(null)
+const scrollContainer = ref(null)
+const currentScrollIndex = ref(0)
+
+function handleScroll() {
+  if (!scrollContainer.value || props.images.length <= 1) return
+  const el = scrollContainer.value
+  const maxScroll = el.scrollWidth - el.clientWidth
+  if (maxScroll <= 0) return
+  const percentage = el.scrollLeft / maxScroll
+  const boundedPercentage = Math.max(0, Math.min(1, percentage))
+  currentScrollIndex.value = Math.round(boundedPercentage * (props.images.length - 1))
+}
+
+function scrollLeft() {
+  if (scrollContainer.value) {
+    const itemWidth = scrollContainer.value.firstElementChild?.offsetWidth || 300
+    scrollContainer.value.scrollBy({ left: -(itemWidth + 16), behavior: 'smooth' })
+  }
+}
+
+function scrollRight() {
+  if (scrollContainer.value) {
+    const itemWidth = scrollContainer.value.firstElementChild?.offsetWidth || 300
+    scrollContainer.value.scrollBy({ left: itemWidth + 16, behavior: 'smooth' })
+  }
+}
 
 function openLightbox(index) {
   lightboxIndex.value = index
