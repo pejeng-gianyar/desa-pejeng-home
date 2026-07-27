@@ -5,7 +5,7 @@
       hoverable ? 'hover:shadow-lg cursor-pointer' : 'shadow-sm',
     ]"
   >
-    <div v-if="$slots.image" class="aspect-[16/10] overflow-hidden flex-shrink-0">
+    <div v-if="$slots.image" class="aspect-[16/10] overflow-hidden flex-shrink-0 bg-brown/5 animate-pulse">
       <slot name="image" />
     </div>
     <div :class="['p-5 flex-1 flex flex-col', !$slots.image ? 'pt-5' : '']">

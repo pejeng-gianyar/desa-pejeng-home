@@ -8,7 +8,28 @@
       <PhotoGallery :images="article.gallery" />
 
       <div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-12">
-        <ArticleContent :contentHtml="contentHtml" />
+        <ArticleContent v-if="contentHtml" :contentHtml="contentHtml" />
+        
+        <!-- Skeleton Loading for Article Content -->
+        <article v-else class="lg:col-span-8 stairway-line md:pl-8">
+          <div class="max-w-[760px] space-y-8 animate-pulse">
+            <div>
+              <div class="h-8 bg-brown/10 rounded w-3/4 mb-4"></div>
+              <div class="h-4 bg-brown/10 rounded w-1/4"></div>
+            </div>
+            <div class="space-y-3">
+              <div class="h-4 bg-brown/10 rounded w-full"></div>
+              <div class="h-4 bg-brown/10 rounded w-full"></div>
+              <div class="h-4 bg-brown/10 rounded w-5/6"></div>
+            </div>
+            <div class="h-[300px] bg-brown/10 rounded-2xl w-full my-8"></div>
+            <div class="space-y-3">
+              <div class="h-4 bg-brown/10 rounded w-full"></div>
+              <div class="h-4 bg-brown/10 rounded w-full"></div>
+              <div class="h-4 bg-brown/10 rounded w-4/5"></div>
+            </div>
+          </div>
+        </article>
         <PlaceSidebar :article="article" />
       </div>
 
@@ -136,6 +157,7 @@ onMounted(() => {
 
 watchEffect(async () => {
   if (!article.value) return
+  contentHtml.value = ''
   const module = await import(`../data/content/${article.value.slug}.js`)
   contentHtml.value = module.default
   await nextTick()
