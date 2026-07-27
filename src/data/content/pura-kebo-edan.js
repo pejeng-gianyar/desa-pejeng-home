@@ -8,30 +8,10 @@ export default `
 
   <section class="mb-section-gap fade-in text-justify" id="introduction">
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap drop-cap">
-      Terletak di Banjar Intaran, Desa Pejeng, Pura Kebo Edan berdiri sebagai salah satu situs spiritual tertua dan paling sarat makna di Bali. Namun sebelum melangkah lebih jauh, ada satu mitos yang perlu diluruskan: nama "Kebo Edan" sama sekali tidak berarti "kerbau gila". Menurut penuturan langsung pemangku pura, Ngakan Putu Duaja, S.Pd., kata "Kebo" pada masa lampau adalah gelar penghormatan bagi orang sakti atau arsitek yang hebat, sedangkan "Edan" diambil dari bahasa Jawa yang bermakna luar biasa atau dahsyat. Dengan demikian, Kebo Edan lebih tepat dimaknai sebagai sebutan bagi sosok arsitek spiritual yang memiliki kemampuan luar biasa.
+      Selamat datang di Pura Kebo Edan, Desa Pejeng. Anda saat ini sedang berdiri di salah satu situs spiritual paling tua dan paling magis di Bali. Tempat ini bukan sekadar pura biasa, melainkan pusat keseimbangan energi alam semesta peninggalan era Kerajaan Singasari, sekaligus bagian dari kawasan cagar budaya yang diakui UNESCO di sepanjang Daerah Aliran Sungai Pakerisan dan Petanu.
     </p>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Pura ini juga menjadi bagian dari kawasan Daerah Aliran Sungai Pakerisan dan Petanu, satu wilayah yang menyimpan banyak situs bersejarah dan telah mendapat pengakuan sebagai bagian dari Warisan Budaya Dunia UNESCO. Kebo Edan menempati posisi penting dalam kawasan ini berkat koleksi arca-arcanya yang monumental, termasuk jejak ajaran Tantrayana yang pernah berkembang di Bali sekitar abad ke-13 Masehi.
-    </p>
-  </section>
-
-  <section class="mb-section-gap fade-in text-justify" id="history">
-    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Sejarah dan Latar Belakang</h2>
-    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Berdasarkan penuturan pemangku pura, cikal bakal Pura Kebo Edan bermula pada masa Kerajaan Singasari, ketika Raja Kertanagara mengutus seorang patih bernama Kebo Parud ke Bali. Kebo Parud menganut ajaran Tantrik, yakni perpaduan antara sekte kanan dan sekte kiri, dan datang pada saat Bali dipimpin oleh Raja Sri Astasura Ratna Bumi Banten dari Kerajaan Bedahulu, yang didampingi oleh Patih Kebo Iwa.
-    </p>
-    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Pertemuan antara ajaran Siwa yang sakti dari Bali dan ajaran Buddha yang sakti yang dibawa dari Jawa ini kemudian melebur menjadi satu bentuk pemujaan terhadap "Hyang" yang sakti, sebuah perpaduan yang menjadi cikal bakal spiritualitas di Pura Kebo Edan hingga kini. Meski Mpu Kuturan diketahui telah menyatukan sekte-sekte besar di Bali (Brahma, Wisnu, dan Siwa) dalam konsep Tri Sadaka, praktik spiritual yang berjalan di Bali hingga sekarang tetap kental dengan pengaruh ajaran Bhairawa yang dibawa Kebo Parud.
-    </p>
-    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Selain jejak Tantrayana, kompleks pura ini juga menyimpan peninggalan zaman prasejarah atau megalitikum yang tidak tercatat dalam prasasti tertulis mana pun, di antaranya menhir (arca tinggi yang digunakan sebagai sarana pemujaan) dan dolmen atau meja batu bersejarah yang oleh masyarakat setempat disebut Taman Surat - kini lebih dikenal dengan nama Atman Surat. Pada masa pemerintahan Belanda, batu ini beberapa kali menjadi objek penelitian para ahli pembaca prasasti karena diyakini menyimpan jejak tulisan kuno.
-    </p>
-  </section>
-
-  <section class="mb-section-gap fade-in text-justify" id="architecture">
-    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Arca Utama dan Simbolisme Tantrayana</h2>
-    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Ikon utama Pura Kebo Edan adalah arca Siwa Bhairawa, yang juga dikenal dengan nama Bhairawa Bima, berdiri setinggi 3,6 meter di area Utama Mandala (jeroan) pura. Arca ini merupakan satu dari tiga jenis arca Bhairawa yang diketahui ada di Indonesia, selain Bhairawa Heruka di Sumatra dan Bhairawa Kalacakra di Jawa, dan menjadikan Bhairawa Bima sebagai satu-satunya di Bali.
+      Sebelum berkeliling, mari luruskan mitos utamanya terlebih dahulu: <strong>Kebo Edan sama sekali tidak berarti "kerbau gila".</strong> Pada zaman lampau, kata "Kebo" adalah gelar penghormatan bagi orang sakti atau arsitek yang hebat, sedangkan "Edan" diambil dari bahasa Jawa yang bermakna luar biasa atau dahsyat. Jadi, Anda sedang berada di mahakarya seorang arsitek spiritual yang sangat dahsyat.
     </p>
     <blockquote class="my-12 px-8 py-4 border-l-4 border-accent-gold rounded-r-xl text-justify">
       <p class="font-display text-pull-quote text-primary italic">
@@ -39,30 +19,65 @@ export default `
       </p>
       <cite class="block mt-4 font-label-caps text-label-caps text-on-surface-variant">NGAKAN PUTU DUAJA, S.PD., PEMANGKU PURA KEBO EDAN</cite>
     </blockquote>
-    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">   
-      Setiap detail pada arca ini menyimpan simbolisme yang dalam. Wajahnya yang tertutup topeng melambangkan bahwa ajaran tentang Tuhan bersifat rahasia, sebuah gagasan yang mengacu pada konsep Brahma Vidya dalam Maitri Upanishad. Arca ini juga digambarkan sedang menari di atas mayat manusia, menyimbolkan unsur kuburan atau Bhairawi, yaitu sang penguasa kuburan yang terus menari untuk mengingatkan manusia akan kepastian siklus kehidupan dan kematian.
-    </p>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Detail yang tidak kalah penting adalah wujud phallus yang digambarkan menyatu dengan alat vital wanita, melambangkan pertemuan Purusa (unsur laki-laki/bapak) dan Pradana (unsur perempuan/ibu) sebagai cikal bakal makna kesuburan dan kehidupan. Ibu disimbolkan dengan Ang (Pertiwi) dan Bapak disimbolkan dengan Ah (Akasa). Filosofi ini menegaskan bahwa tanpa kehadiran keduanya, tidak akan ada kehidupan, sehingga ajaran di pura ini sangat menekankan penghormatan kepada orang tua dan leluhur.
-    </p>
-    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Di sisi arca utama, terdapat pula Arca Ratu Kebo yang menggambarkan seekor kerbau. Arca ini menyimpan filosofi kelestarian hidup masyarakat agraris Bali kuno: jauh sebelum traktor ditemukan, tenaga kerbau menjadi tulang punggung pengolahan lahan pertanian. Dalam konsep yang disebut Kamaduk, kerbau bahkan diposisikan sebagai "ibu kedua" karena air susunya menyambung kehidupan manusia setelah lepas dari ASI ibu kandungnya. Arca ini menjadi ruang suci tempat masyarakat memohon kesembuhan dan keselamatan bagi hewan ternak mereka.
-    </p>
-    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Arca lain yang turut menyita perhatian adalah sosok raksasa dengan ekspresi beringas yang menopang mangkuk berisi darah. Meski tampilannya terkesan menyeramkan, nama Bhairawa dalam konteks ini diyakini berakar dari istilah "bhelalwo", yang bermakna mengolah atau menyatukan sesuatu menggunakan media darah. Darah di sini bukan simbol kekerasan, melainkan elemen paling suci yang berfungsi "menghidupkan" alam semesta sebagai representasi dari kesuburan dan energi penciptaan, yang jejaknya masih terasa dalam ritual caru, byakaonan, dan melaspas dalam tradisi Hindu Bali hingga kini.
+      Momen terbaik untuk merasakan puncak energi di pura ini adalah saat piodalan atau upacara perayaannya, yang jatuh setiap hari suci Tumpek Uye. Jika kunjungan Anda bertepatan dengan hari tersebut, Anda berkesempatan menyaksikan langsung tradisi sakral yang terus dihidupkan di sini.
     </p>
   </section>
 
-  <section class="mb-section-gap fade-in text-justify text-justify" id="present">
-    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">Ajaran, Pelestarian, dan Panduan Berkunjung</h2>
+  <section class="mb-section-gap fade-in text-justify" id="penglihatan">
+    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">👀 Apa yang Sedang Anda Lihat Saat Ini?</h2>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Ornamen tengkorak yang menghiasi arca-arca di pura ini melambangkan keseimbangan antara Ilmu Kanan (Penengen) yang mengarah pada kesucian dan ketuhanan, dengan Ilmu Kiri (Kiwa) yang berkaitan dengan hal gaib dan kekebalan. Perpaduan keduanya melahirkan konsep Rwa Bhineda, yaitu dua hal berbeda yang saling menyeimbangkan untuk menciptakan energi luar biasa. Ajaran ini juga menekankan pengendalian Sad Ripu, yaitu enam musuh dalam diri manusia (Kama, Loba, Krodha, Mada, Moha, dan Matsarya), sebagai jalan membangkitkan energi Kundalini hingga mencapai titik tertinggi meditasi atau Samadhi, sejalan dengan tahapan Patanjali Yoga.
+      Alihkan pandangan Anda dari layar ponsel dan temukan tiga peninggalan paling luar biasa di area Utama Mandala (Jeroan) pura ini:
+    </p>
+    <ul class="list-disc list-outside ml-6 font-body text-body-md md:text-body-lg mb-paragraph-gap space-y-4">
+      <li>
+        <strong>Arca Raksasa Siwa Bhairawa (Bhairawa Bima):</strong> Pura ini menyimpan arca setinggi 3,6 meter, satu dari tiga arca Bhairawa yang diketahui ada di Indonesia. Wajahnya yang tertutup topeng adalah manifestasi dari Brahma Vidya, pesan kuno bahwa kebesaran dan rahasia Tuhan sejatinya selalu tersembunyi dari pandangan awam. Di bagian pijakannya, sosok ini digambarkan menari di atas mayat manusia, perwujudan Sang Hyang Bhairawi, sang penguasa kuburan yang terus menari untuk mengingatkan manusia akan kepastian siklus kehidupan dan kematian. Arca ini juga menyimpan wujud phallus yang menyatu dengan alat vital feminin, melambangkan pertemuan Purusa (Bapa Akasa/maskulinitas) dan Pradana (Ibu Pertiwi/femininitas) sebagai cikal bakal terciptanya alam semesta, sekaligus pengingat agar manusia tidak pernah durhaka kepada leluhur dan kedua orang tua.
+      </li>
+      <li>
+        <strong>Arca Ratu Kebo:</strong> Di sisi arca utama, terdapat wujud seekor kerbau yang menyimpan filosofi kelestarian hidup masyarakat agraris Bali kuno. Jauh sebelum traktor ditemukan, tenaga kerbau menjadi tulang punggung pengolahan lahan pertanian, bahkan dalam konsep Kamaduk, kerbau diposisikan sebagai "ibu kedua" karena air susunya menyambung kehidupan manusia setelah lepas dari ASI ibu kandungnya. Arca ini menjadi ruang suci tempat masyarakat memohon kesembuhan dan keselamatan bagi hewan ternak mereka.
+      </li>
+      <li>
+        <strong>Arca Raksasa Menopang Semangkuk Darah:</strong> Sosok raksasa dengan ekspresi beringas ini menopang mangkuk berisi darah. Nama Bhairawa dalam konteks ini diyakini berakar dari istilah "bhelalwo", yang bermakna mengolah atau menyatukan sesuatu menggunakan media darah, bukan simbol kekerasan, melainkan elemen paling suci yang berfungsi "menghidupkan" alam semesta sebagai representasi kesuburan dan energi penciptaan, yang jejaknya masih terasa dalam ritual caru, byakaonan, dan melaspas dalam tradisi Hindu Bali hingga kini.
+      </li>
+    </ul>
+  </section>
+
+  <section class="mb-section-gap fade-in text-justify" id="sejarah">
+    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">📜 Jejak Sejarah Ajaran Tantrayana</h2>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Jejak ajaran Tantrayana di Pura Kebo Edan tidak hanya tersembunyi dalam lontar-lontar kuno, melainkan terpahat dengan sangat lugas pada wujud arca-arcanya yang megah. Ornamen tengkorak manusia yang menghiasi arca utama melambangkan penguasaan atas Ilmu Kiwa (aliran kiri yang identik dengan kegaiban dan alam bawah), yang dalam Tantrayana tidak dibuang, melainkan disandingkan dan diselaraskan dengan Ilmu Penengen (aliran kanan yang mengarah pada kesucian ketuhanan). Ajaran ini menekankan bahwa untuk mencapai pencerahan sejati, manusia harus mampu menyatukan dua energi ekstrem yang berlawanan (Rwa Bhineda) guna membangkitkan kekuatan kosmis yang luar biasa dahsyat di dunia.
     </p>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Sebagai bagian dari kawasan cagar budaya yang diakui UNESCO di sepanjang Daerah Aliran Sungai Pakerisan dan Petanu, Pura Kebo Edan tetap aktif digunakan sebagai tempat persembahyangan oleh umat Hindu setempat, dengan piodalan yang dirayakan setiap tahun oleh krama desa adat sekitar. Pura ini juga terbuka bagi pengunjung dan peneliti yang ingin mempelajari jejak Tantrayana di Bali.
+      Filsafat ini semakin dipertegas melalui ukiran lilitan ular pada tubuh arca serta topeng yang menutupi wajahnya, perwujudan dari Brahma Vidya bahwa hakikat kebesaran Tuhan adalah rahasia tertinggi yang tersembunyi dari pandangan duniawi. Ukiran ular merupakan representasi dari energi suci Kundalini yang tertidur di dasar tulang punggung. Melalui pengekangan enam musuh batin manusia (Sad Ripu), di antaranya kemarahan, keserakahan, dan kemabukan, energi Kundalini ini perlahan bangkit, merambat naik menembus cakra-cakra tubuh hingga mencapai titik tertinggi di mahkota kepala (Sahasrara), tempat manusia mencapai penyatuan mutlak dengan Sang Pencipta atau yang dikenal sebagai Nirvikalpa Samadhi.
     </p>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Karena statusnya sebagai tempat suci yang masih sangat aktif, termasuk digunakan oleh para praktisi meditasi yang mencari keheningan, pengunjung diimbau untuk berpakaian sopan dengan mengenakan kamen dan selendang yang diikat di pinggang. Wanita yang sedang berhalangan (menstruasi) dimohon untuk tidak memasuki area utama pura demi menjaga kesucian energi tempat ini. Pengunjung juga diharapkan menjaga keheningan, khususnya di sekitar area yang digunakan untuk bermeditasi, serta dilarang keras menyentuh atau menaiki situs batu dan arca prasejarah yang ada di kompleks pura.
+      Puncak dari filosofi Tantrayana pada arca ini tergambar dari sebuah kontras yang sangat tajam: kaki yang menari di atas mayat, dipadukan dengan simbol penyatuan phallus (Purusa) dan alat vital feminin (Pradana). Ini adalah saripati ajaran Tantra, sebuah penerimaan penuh bahwa kehancuran (kematian) dan penciptaan (kesuburan) adalah satu siklus yang tidak dapat dipisahkan. Sang arca menari di atas kematian untuk merayakan kehidupan itu sendiri, sekaligus menjadi pengingat paling sakral bahwa jalan spiritual keilahian tertinggi harus dimulai dengan sujud penghormatan kepada akar penciptaan kita di bumi, yakni leluhur dan kedua orang tua.
     </p>
+  </section>
+
+  <section class="mb-section-gap fade-in text-justify" id="panduan">
+    <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">🧘‍♂️ Panduan Pengunjung & Etika Spiritual</h2>
+    <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
+      Pura Kebo Edan adalah tempat suci yang sangat aktif. Banyak praktisi meditasi dan umat datang ke sini khusus untuk mencari keheningan. Agar kunjungan Anda nyaman dan selaras dengan energi pura, mohon perhatikan hal-hal berikut:
+    </p>
+    <ul class="list-disc list-outside ml-6 font-body text-body-md md:text-body-lg mb-paragraph-gap space-y-2">
+      <li><strong>Wajib Berpakaian Sopan:</strong> gunakan kamen (kain sarung) dan/atau selendang yang diikat di pinggang.</li>
+      <li><strong>Bagi Wanita:</strong> mohon tidak memasuki area pura jika sedang dalam masa menstruasi (datang bulan), demi menjaga kesucian energi area ini.</li>
+      <li><strong>Jaga Keheningan:</strong> jika Anda melihat orang yang sedang duduk bersila dan memejamkan mata, mohon jangan bersuara keras, mereka mungkin sedang menarik energi Kundalini hingga mencapai Samadhi.</li>
+      <li><strong>Dilarang Memanjat:</strong> dilarang keras menyentuh secara sembarangan atau menaiki situs-situs batu dan arca prasejarah.</li>
+    </ul>
+    <p class="font-body text-body-md md:text-body-lg font-medium italic mt-6 text-primary">
+      Rahajeng rauh! Selamat meresapi keseimbangan energi di Pura Kebo Edan.
+    </p>
+  </section>
+
+  <section class="mb-section-gap fade-in text-justify" id="referensi">
+    <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">📚 Referensi</h3>
+    <ul class="list-disc list-outside ml-6 font-body text-body-sm md:text-body-md mb-paragraph-gap space-y-2 text-on-surface-variant break-all">
+      <li><a href="https://id.wikipedia.org/wiki/Pura_Kebo_Edan" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://id.wikipedia.org/wiki/Pura_Kebo_Edan</a></li>
+      <li><a href="https://budayabali.com/id/peninggalan-sejarah-hindu-tantrayana-di-pura-kebo-edan" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://budayabali.com/id/peninggalan-sejarah-hindu-tantrayana-di-pura-kebo-edan</a></li>
+      <li><a href="https://cagarbudaya.gianyarkab.go.id/510404/11" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://cagarbudaya.gianyarkab.go.id/510404/11</a></li>
+      <li><a href="https://baliexpress.jawapos.com/balinese/2405010015/pura-kebo-edan-jejak-aliran-tantrayana-bagi-hindu-bali-sejak-abad-ke-13-sejarah-dan-fakta-menarik" target="_blank" rel="noopener noreferrer" class="text-accent-gold hover:underline">https://baliexpress.jawapos.com/balinese/2405010015/pura-kebo-edan-jejak-aliran-tantrayana-bagi-hindu-bali-sejak-abad-ke-13-sejarah-dan-fakta-menarik</a></li>
+    </ul>
   </section>
 `
