@@ -4,9 +4,9 @@
       <div class="text-center md:text-left">
         <div class="flex items-center gap-2.5 justify-center md:justify-start mb-2">
           <img :src="images.logo" alt="Logo KKN Desa Pejeng" class="w-5 h-5 object-contain" />
-          <span class="font-display text-base tracking-tighter text-primary font-bold">{{ site.namaSitus }}</span>
+          <span class="font-display text-base tracking-tighter text-primary font-bold">{{ $t('site.namaSitus') }}</span>
         </div>
-        <p class="font-caption text-caption text-on-surface-variant">&copy; {{ new Date().getFullYear() }} Tim KKN Desa Pejeng. Seluruh hak cipta dilindungi.</p>
+        <p class="font-caption text-caption text-on-surface-variant">&copy; {{ new Date().getFullYear() }} Tim KKN Desa Pejeng. {{ $t('footer.hakCipta') }}</p>
       </div>
       <nav class="flex gap-8 items-center font-caption text-caption">
         <router-link class="text-on-surface-variant hover:text-primary transition-colors" to="/">Beranda</router-link>
@@ -24,7 +24,7 @@
     <div class="flex justify-center mt-12">
       <button class="flex flex-col items-center gap-2 text-on-surface-variant hover:text-primary transition-colors group" @click="scrollToTop">
         <span class="material-symbols-outlined group-hover:-translate-y-1 transition-transform">expand_less</span>
-        <span class="font-label-caps text-[10px]">KEMBALI KE ATAS</span>
+        <span class="font-label-caps text-[10px]">{{ $t('footer.kembaliKeAtas') }}</span>
       </button>
     </div>
   </footer>
@@ -32,7 +32,6 @@
 
 <script setup>
 import images from '../../data/images.js'
-import site from '../../data/site.js'
 
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' })

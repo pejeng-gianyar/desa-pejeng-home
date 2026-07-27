@@ -1,0 +1,95 @@
+{
+  "site": {
+    "namaSitus": "KKN Desa Pejeng",
+    "aboutTitle": "Tentang Situs Ini",
+    "aboutText": "Situs ini merupakan dokumentasi hasil Kuliah Kerja Nyata (KKN) Politeknik Negeri Bali di Desa Pejeng, Kecamatan Tampaksiring, Kabupaten Gianyar, tahun 2026. Desa Pejeng dikenal sebagai salah satu kawasan bersejarah di Bali yang menyimpan peninggalan purbakala dari masa peradaban kuno, termasuk sejumlah pura yang menjadi pusat aktivitas spiritual masyarakat hingga kini. Melalui situs ini, tim KKN merangkum kembali sejarah lima pura di Desa Pejeng agar lebih mudah diakses dan dipelajari oleh masyarakat luas."
+  },
+  "village": {
+    "name": "Desa Pejeng",
+    "subdistrict": "Kecamatan Tampaksiring",
+    "regency": "Kabupaten Gianyar",
+    "province": "Bali",
+    "tagline": "Warisan Bali Kuno di Jantung Gianyar",
+    "history": "Desa Pejeng menyimpan lebih dari 30 pura bersejarah yang tersebar di seluruh penjuru desa, masing-masing dengan kisah dan nilai spiritualnya sendiri. Dari Pura Penataran Sasih yang menyimpan legenda Bulan Pejeng, Pura Pusering Jagat yang dipercaya sebagai poros kosmologi Bali, hingga Pura Kebo Edan dengan arca Tantrayana-nya yang unik. Situs ini merangkum kisah lima pura utama di Desa Pejeng — temukan dan jelajahi artikel-artikel di bawah untuk mengenal lebih dekat warisan leluhur yang masih hidup hingga kini."
+  },
+  "nav": {
+    "beranda": "Beranda",
+    "artikel": "Artikel",
+    "ubahBahasa": "Ubah Bahasa"
+  },
+  "hero": {
+    "jelajahiDesa": "Jelajahi Desa",
+    "tontonVideo": "Tonton Video"
+  },
+  "about": {
+    "title": "Pura-Pura Bersejarah di Desa Pejeng",
+    "subtitle": "Jelajahi kisah pura kuno yang tersebar di seluruh penjuru desa"
+  },
+  "articlePreview": {
+    "title": "Pura Bersejarah",
+    "subtitle": "Jelajahi pura-pura kuno yang menyimpan kisah peradaban Bali Kuno",
+    "bacaSelengkapnya": "Baca selengkapnya"
+  },
+  "article": {
+    "informasiPura": "INFORMASI PURA",
+    "lokasi": "Lokasi",
+    "periode": "Periode",
+    "pendiri": "Pendiri",
+    "dewaUtama": "Dewa Utama",
+    "lihatDiPeta": "LIHAT DI PETA",
+    "simpan": "SIMPAN",
+    "bagikan": "BAGIKAN",
+    "artikelLainnya": "Artikel Lainnya",
+    "subtitleLainnya": "Jelajahi pura-pura bersejarah lainnya di Desa Pejeng",
+    "bacaSelengkapnya": "Baca selengkapnya",
+    "tentangTempat": "Tentang Tempat"
+  },
+  "gallery": {
+    "title": "Galeri Foto",
+    "swipeHint": "Geser untuk melihat foto",
+    "scrollLeft": "Geser ke kiri",
+    "scrollRight": "Geser ke kanan"
+  },
+  "footer": {
+    "hakCipta": "Seluruh hak cipta dilindungi.",
+    "kembaliKeAtas": "KEMBALI KE ATAS"
+  },
+  "articles": {
+    "pura-panataran-sasih": {
+      "namaPura": "Pura Panataran Sasih",
+      "title": "Panataran Sasih: Altar Pemujaan Bulan dan Peradaban Bali Kuno",
+      "excerpt": "Menelusuri makna \"Penataran Sasih\" sebagai altar pemujaan bulan, konsep Tri Mandala, dan Nekara Perunggu Bulan Pejeng yang dipercaya sebagai media memohon hujan sejak masa agraris Bali Kuno.",
+      "author": "Tim KKN Desa Pejeng",
+      "lokasi": "Banjar Intaran, Desa Pejeng, Kec. Tampaksiring, Gianyar",
+      "periode": "Cikal bakal sejak masa prasejarah; struktur pura tertata sekitar abad ke-9/10 M (era Raja Sri Kesari Warmadewa)",
+      "pendiri": "Berkaitan dengan masa pemerintahan Raja Sri Kesari Warmadewa",
+      "dewaUtama": "Ida Sang Hyang Ratih (Dewi Bulan) dan Ida Bhatara Mahadewa",
+      "category": "ARSITEKTUR",
+      "readTime": "15 menit"
+    },
+    "pura-pusering-jagat": {
+      "namaPura": "Pura Pusering Jagat",
+      "title": "Pusering Jagat: Pura Sad Kahyangan di Titik Tengah Bali",
+      "excerpt": "Mengenal salah satu dari enam Pura Sad Kahyangan yang dipercaya sebagai pusat kosmologi Pulau Bali.",
+      "author": "Tim KKN Desa Pejeng",
+      "lokasi": "Desa Adat Jero Kuta Pejeng, Kec. Tampaksiring, Gianyar",
+      "periode": "Diperkirakan sejak abad ke-10 M",
+      "pendiri": "Tidak tercatat dalam lontar mana pun",
+      "dewaUtama": "Bhatara Amangkurat / Ida Bhatara Siwa",
+      "category": "SEJARAH",
+      "readTime": "10 menit"
+    },
+    "pura-kebo-edan": {
+      "namaPura": "Pura Kebo Edan",
+      "title": "Kebo Edan: Jejak Tantrayana dan Arca Siwa Bhairawa di Pejeng",
+      "excerpt": "Meluruskan makna nama \"Kebo Edan\" dan menelusuri arca Siwa Bhairawa setinggi 3,6 meter, salah satu dari tiga arca Bhairawa di Indonesia, di kawasan cagar budaya UNESCO Pakerisan-Petanu.",
+      "author": "Tim KKN Desa Pejeng",
+      "lokasi": "Banjar Intaran, Desa Pejeng, Kec. Tampaksiring, Gianyar",
+      "periode": "Era Kerajaan Singasari, sekitar abad ke-13 M (menurut penuturan pemangku pura)",
+      "pendiri": "Dibawa oleh Patih Kebo Parud, utusan Raja Kertanagara dari Singasari",
+      "dewaUtama": "Siwa Bhairawa (Bhairawa Bima)",
+      "category": "SEJARAH",
+      "readTime": "13 menit"
+    }
+  }
+}

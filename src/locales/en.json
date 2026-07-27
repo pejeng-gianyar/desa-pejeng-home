@@ -1,0 +1,95 @@
+{
+  "site": {
+    "namaSitus": "KKN Pejeng Village",
+    "aboutTitle": "About This Site",
+    "aboutText": "This site is a documentation of the Real Work Lecture (KKN) program by Bali State Polytechnic in Pejeng Village, Tampaksiring District, Gianyar Regency, in 2026. Pejeng Village is known as one of the historical areas in Bali that preserves ancient relics from past civilizations, including several temples that remain centers of spiritual activity for the community to this day. Through this site, the KKN team has compiled the history of five temples in Pejeng Village to make them more accessible and learnable for the wider community."
+  },
+  "village": {
+    "name": "Pejeng Village",
+    "subdistrict": "Tampaksiring District",
+    "regency": "Gianyar Regency",
+    "province": "Bali",
+    "tagline": "Ancient Balinese Heritage in the Heart of Gianyar",
+    "history": "Pejeng Village is home to more than 30 historical temples scattered across every corner of the village, each with its own story and spiritual significance. From Penataran Sasih Temple, which holds the legend of the Pejeng Moon, Pusering Jagat Temple, believed to be the cosmological axis of Bali, to Kebo Edan Temple with its unique Tantrayana statue. This site summarizes the stories of five main temples in Pejeng Village — discover and explore the articles below to learn more about this ancestral heritage that still lives today."
+  },
+  "nav": {
+    "beranda": "Home",
+    "artikel": "Articles",
+    "ubahBahasa": "Change Language"
+  },
+  "hero": {
+    "jelajahiDesa": "Explore the Village",
+    "tontonVideo": "Watch Video"
+  },
+  "about": {
+    "title": "Historical Temples in Pejeng Village",
+    "subtitle": "Explore the stories of ancient temples scattered across the village"
+  },
+  "articlePreview": {
+    "title": "Historical Temples",
+    "subtitle": "Discover ancient temples that hold stories of ancient Balinese civilization",
+    "bacaSelengkapnya": "Read more"
+  },
+  "article": {
+    "informasiPura": "TEMPLE INFO",
+    "lokasi": "Location",
+    "periode": "Period",
+    "pendiri": "Founder",
+    "dewaUtama": "Main Deity",
+    "lihatDiPeta": "SEE ON MAP",
+    "simpan": "SAVE",
+    "bagikan": "SHARE",
+    "artikelLainnya": "Other Articles",
+    "subtitleLainnya": "Explore other historical temples in Pejeng Village",
+    "bacaSelengkapnya": "Read more",
+    "tentangTempat": "About This Place"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "swipeHint": "Swipe to view photos",
+    "scrollLeft": "Scroll left",
+    "scrollRight": "Scroll right"
+  },
+  "footer": {
+    "hakCipta": "All rights reserved.",
+    "kembaliKeAtas": "BACK TO TOP"
+  },
+  "articles": {
+    "pura-panataran-sasih": {
+      "namaPura": "Pura Panataran Sasih",
+      "title": "Panataran Sasih: Moon Worship Altar and Ancient Balinese Civilization",
+      "excerpt": "Exploring the meaning of \"Penataran Sasih\" as a moon worship altar, the Tri Mandala concept, and the Pejeng Moon Bronze Drum believed to be a medium for rain prayers since the ancient Balinese agrarian era.",
+      "author": "KKN Pejeng Village Team",
+      "lokasi": "Banjar Intaran, Pejeng Village, Tampaksiring, Gianyar",
+      "periode": "Origins since prehistoric times; temple structure took shape around the 9th-10th century AD (era of King Sri Kesari Warmadewa)",
+      "pendiri": "Associated with the reign of King Sri Kesari Warmadewa",
+      "dewaUtama": "Ida Sang Hyang Ratih (Goddess of the Moon) and Ida Bhatara Mahadewa",
+      "category": "ARCHITECTURE",
+      "readTime": "15 min read"
+    },
+    "pura-pusering-jagat": {
+      "namaPura": "Pura Pusering Jagat",
+      "title": "Pusering Jagat: The Sad Kahyangan Temple at Bali's Center Point",
+      "excerpt": "Discover one of the six Sad Kahyangan Temples believed to be the cosmological center of Bali Island.",
+      "author": "KKN Pejeng Village Team",
+      "lokasi": "Jero Kuta Traditional Village, Pejeng, Tampaksiring, Gianyar",
+      "periode": "Estimated since the 10th century AD",
+      "pendiri": "Not recorded in any ancient manuscripts",
+      "dewaUtama": "Bhatara Amangkurat / Ida Bhatara Siwa",
+      "category": "HISTORY",
+      "readTime": "10 min read"
+    },
+    "pura-kebo-edan": {
+      "namaPura": "Pura Kebo Edan",
+      "title": "Kebo Edan: Traces of Tantrayana and the Siwa Bhairawa Statue in Pejeng",
+      "excerpt": "Correcting the meaning of \"Kebo Edan\" and tracing the 3.6-meter Siwa Bhairawa statue, one of three Bhairawa statues in Indonesia, within the UNESCO cultural heritage area of Pakerisan-Petanu.",
+      "author": "KKN Pejeng Village Team",
+      "lokasi": "Banjar Intaran, Pejeng Village, Tampaksiring, Gianyar",
+      "periode": "Singasari Kingdom era, around the 13th century AD (per temple priest account)",
+      "pendiri": "Brought by Patih Kebo Parud, envoy of King Kertanagara of Singasari",
+      "dewaUtama": "Siwa Bhairawa (Bhairawa Bima)",
+      "category": "HISTORY",
+      "readTime": "13 min read"
+    }
+  }
+}

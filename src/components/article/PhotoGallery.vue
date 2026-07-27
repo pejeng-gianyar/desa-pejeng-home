@@ -5,7 +5,7 @@
     </div>
     <div class="text-center max-w-2xl mx-auto mb-8">
       <h2 class="text-3xl md:text-4xl font-bold text-brown relative inline-block mb-4">
-        Galeri Foto
+        {{ $t('gallery.title') }}
       </h2>
       <div class="gold-divider">
         <span class="gold-divider-dot" />
@@ -17,7 +17,7 @@
       <button 
         @click="scrollLeft"
         class="hidden md:flex absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 shadow-lg rounded-full items-center justify-center text-brown hover:bg-brown hover:text-white transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
-        aria-label="Geser ke kiri"
+        :aria-label="$t('gallery.scrollLeft')"
       >
         <span class="material-symbols-outlined text-2xl">chevron_left</span>
       </button>
@@ -26,7 +26,7 @@
       <button 
         @click="scrollRight"
         class="hidden md:flex absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white/90 shadow-lg rounded-full items-center justify-center text-brown hover:bg-brown hover:text-white transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
-        aria-label="Geser ke kanan"
+        :aria-label="$t('gallery.scrollRight')"
       >
         <span class="material-symbols-outlined text-2xl">chevron_right</span>
       </button>
@@ -53,7 +53,7 @@
     <div class="flex flex-col items-center justify-center gap-3 mt-2">
       <div class="flex md:hidden items-center justify-center gap-2 text-brown/60 animate-pulse">
         <span class="material-symbols-outlined text-sm">swipe</span>
-        <span class="text-xs font-medium uppercase tracking-wider">Geser untuk melihat foto</span>
+        <span class="text-xs font-medium uppercase tracking-wider">{{ $t('gallery.swipeHint') }}</span>
       </div>
       
       <div class="flex items-center justify-center gap-2" v-if="images.length > 1">
@@ -119,6 +119,9 @@
 
 <script setup>
 import { ref, watch, onMounted, onUnmounted } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const props = defineProps({
   images: { type: Array, default: () => [] },
