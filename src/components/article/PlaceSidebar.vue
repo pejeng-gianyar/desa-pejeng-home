@@ -10,7 +10,7 @@
         <div class="aspect-[16/9] rounded-lg overflow-hidden mb-4">
           <img
             :src="article.image"
-            :alt="article.title"
+            :alt="$t(`articles.${article.slug}.title`)"
             class="w-full h-full object-cover"
             loading="lazy"
           />

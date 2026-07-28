@@ -12,14 +12,6 @@
         <router-link class="text-on-surface-variant hover:text-primary transition-colors" to="/">Beranda</router-link>
         <router-link class="text-on-surface-variant hover:text-primary transition-colors" to="/artikel/pura-kebo-edan">Artikel</router-link>
       </nav>
-      <div class="flex gap-4">
-        <a class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" href="#">
-          <span class="material-symbols-outlined">public</span>
-        </a>
-        <a class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" href="#">
-          <span class="material-symbols-outlined">photo_camera</span>
-        </a>
-      </div>
     </div>
     <div class="flex justify-center mt-12">
       <button class="flex flex-col items-center gap-2 text-on-surface-variant hover:text-primary transition-colors group" @click="scrollToTop">

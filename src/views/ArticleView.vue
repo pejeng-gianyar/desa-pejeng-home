@@ -13,71 +13,71 @@
         <!-- Skeleton Loading for Article Content -->
         <article v-else class="lg:col-span-8 stairway-line md:pl-8">
           <div class="max-w-[760px] space-y-8 animate-pulse">
-            <div>
-              <div class="h-8 bg-brown/10 rounded w-3/4 mb-4"></div>
-              <div class="h-4 bg-brown/10 rounded w-1/4"></div>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 bg-brown/10 rounded-full"></div>
+              <div class="space-y-2 flex-1">
+                <div class="h-3 bg-brown/10 rounded w-1/3"></div>
+                <div class="h-3 bg-brown/10 rounded w-1/4"></div>
+              </div>
             </div>
+            <div class="h-8 bg-brown/10 rounded w-3/4"></div>
+            <div class="h-4 bg-brown/10 rounded w-1/2"></div>
             <div class="space-y-3">
               <div class="h-4 bg-brown/10 rounded w-full"></div>
               <div class="h-4 bg-brown/10 rounded w-full"></div>
               <div class="h-4 bg-brown/10 rounded w-5/6"></div>
             </div>
-            <div class="h-[300px] bg-brown/10 rounded-2xl w-full my-8"></div>
+            <div class="h-[300px] bg-brown/10 rounded-2xl w-full"></div>
             <div class="space-y-3">
               <div class="h-4 bg-brown/10 rounded w-full"></div>
               <div class="h-4 bg-brown/10 rounded w-full"></div>
               <div class="h-4 bg-brown/10 rounded w-4/5"></div>
+              <div class="h-4 bg-brown/10 rounded w-3/4"></div>
+            </div>
+            <div class="space-y-3">
+              <div class="h-4 bg-brown/10 rounded w-full"></div>
+              <div class="h-4 bg-brown/10 rounded w-2/3"></div>
             </div>
           </div>
         </article>
         <PlaceSidebar :article="article" />
       </div>
 
-      <div class="block lg:hidden mt-12 space-y-8 pb-section-gap px-margin-mobile md:px-gutter max-w-7xl mx-auto">
+      <div class="block lg:hidden md:mt-12 space-y-8 pb-section-gap px-margin-mobile md:px-gutter max-w-7xl mx-auto">
         <div class="bg-white p-6 rounded-2xl border border-outline-variant/30 shadow-sm">
           <h3 class="font-label-caps text-label-caps text-accent-gold mb-6 border-b border-outline-variant/30 pb-4">
             {{ $t('article.informasiPura') }}
           </h3>
           <div class="space-y-4">
-            <div class="flex justify-between items-center py-2 border-b border-outline-variant/10">
-              <span class="text-sm text-on-surface-variant">{{ $t('article.lokasi') }}</span>
-              <span class="text-sm font-semibold text-right">{{ $t(`articles.${article.slug}.lokasi`) }}</span>
+            <div class="py-3 border-b border-outline-variant/10">
+              <span class="text-xs text-on-surface-variant uppercase tracking-wider">{{ $t('article.lokasi') }}</span>
+              <p class="text-sm font-semibold text-primary mt-1">{{ $t(`articles.${article.slug}.lokasi`) }}</p>
             </div>
-            <div class="flex justify-between items-center py-2 border-b border-outline-variant/10">
-              <span class="text-sm text-on-surface-variant">{{ $t('article.periode') }}</span>
-              <span class="text-sm font-semibold text-right">{{ $t(`articles.${article.slug}.periode`) }}</span>
+            <div class="py-3 border-b border-outline-variant/10">
+              <span class="text-xs text-on-surface-variant uppercase tracking-wider">{{ $t('article.periode') }}</span>
+              <p class="text-sm font-semibold text-primary mt-1">{{ $t(`articles.${article.slug}.periode`) }}</p>
             </div>
-            <div class="flex justify-between items-center py-2 border-b border-outline-variant/10">
-              <span class="text-sm text-on-surface-variant">{{ $t('article.pendiri') }}</span>
-              <span class="text-sm font-semibold text-right">{{ $t(`articles.${article.slug}.pendiri`) }}</span>
+            <div class="py-3 border-b border-outline-variant/10">
+              <span class="text-xs text-on-surface-variant uppercase tracking-wider">{{ $t('article.pendiri') }}</span>
+              <p class="text-sm font-semibold text-primary mt-1">{{ $t(`articles.${article.slug}.pendiri`) }}</p>
             </div>
-            <div class="flex justify-between items-center py-2">
-              <span class="text-sm text-on-surface-variant">{{ $t('article.dewaUtama') }}</span>
-              <span class="text-sm font-semibold text-right">{{ $t(`articles.${article.slug}.dewaUtama`) }}</span>
+            <div class="py-3">
+              <span class="text-xs text-on-surface-variant uppercase tracking-wider">{{ $t('article.dewaUtama') }}</span>
+              <p class="text-sm font-semibold text-primary mt-1">{{ $t(`articles.${article.slug}.dewaUtama`) }}</p>
             </div>
           </div>
-          <button class="w-full mt-6 bg-deep-green text-white py-3 rounded-lg font-label-caps text-label-caps hover:bg-opacity-90 transition-all flex items-center justify-center gap-2">
+          <button
+            class="w-full mt-6 bg-deep-green text-white py-3 rounded-lg font-label-caps text-label-caps hover:bg-opacity-90 transition-all flex items-center justify-center gap-2"
+            @click="openMap"
+          >
             <span class="material-symbols-outlined text-[18px]">location_on</span>
             {{ $t('article.lihatDiPeta') }}
-          </button>
-        </div>
-        <div class="flex items-center gap-4">
-          <button class="flex-1 flex items-center justify-center gap-2 py-3 border border-outline rounded-lg font-label-caps text-label-caps text-on-surface-variant hover:bg-surface-container transition-colors">
-            <span class="material-symbols-outlined text-[18px]">bookmark</span>
-            {{ $t('article.simpan') }}
-          </button>
-          <button class="flex-1 flex items-center justify-center gap-2 py-3 border border-outline rounded-lg font-label-caps text-label-caps text-on-surface-variant hover:bg-surface-container transition-colors">
-            <span class="material-symbols-outlined text-[18px]">share</span>
-            {{ $t('article.bagikan') }}
           </button>
         </div>
       </div>
     </main>
 
-    <section class="py-16 md:py-24 relative overflow-hidden">
-      <div class="gold-divider mb-12">
-        <span class="gold-divider-dot" />
-      </div>
+    <section class="pt-8 md:pt-24 pb-16 md:pb-24 relative overflow-hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading :title="$t('article.artikelLainnya')" :subtitle="$t('article.subtitleLainnya')" />
         <div class="flex flex-wrap justify-center gap-6">
@@ -92,7 +92,7 @@
                 <div class="w-full h-full overflow-hidden">
                   <img
                     :src="other.image"
-                    :alt="other.title"
+                    :alt="$t(`articles.${other.slug}.title`)"
                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     loading="lazy"
                   />
@@ -141,6 +141,10 @@ const route = useRoute()
 const article = computed(() => articles.find(a => a.slug === route.params.slug) || articles[0])
 const contentHtml = shallowRef('')
 const otherArticles = computed(() => articles.filter(a => a.slug !== article.value.slug).slice(0, 3))
+
+const openMap = () => {
+  window.open(article.value.mapEmbedUrl, '_blank')
+}
 
 const navbarTransparent = ref(true)
 let navbarObserver = null

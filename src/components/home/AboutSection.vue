@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="py-16 md:py-24 bg-surface relative overflow-hidden">
+  <section id="about" class="py-5 md:py-24 bg-surface relative overflow-hidden">
     <div class="absolute inset-0 bali-pattern pointer-events-none" />
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">

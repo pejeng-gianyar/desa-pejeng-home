@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 md:py-24 relative overflow-hidden">
+  <section class="py-5 md:py-24 relative overflow-hidden">
     <div class="absolute inset-0 texture-dots pointer-events-none" />
     <div class="gold-divider mb-12">
       <span class="gold-divider-dot" />
@@ -20,7 +20,7 @@
               <div class="w-full h-full overflow-hidden">
                 <img
                   :src="article.image"
-                  :alt="article.title"
+                  :alt="$t(`articles.${article.slug}.title`)"
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   loading="lazy"
                 />
