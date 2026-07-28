@@ -21,7 +21,7 @@ export default `
   <section class="mb-section-gap fade-in text-justify" id="penglihatan">
     <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">👀 Apa yang Sedang Anda Lihat Saat Ini?</h2>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Alihkan pandangan Anda dari layar ponsel dan temukan dua peninggalan paling luar biasa di area Utama Mandala (Jeroan) pura ini:
+      Alihkan pandangan Anda dari layar ponsel dan temukan tiga peninggalan paling luar biasa di area Utama Mandala (Jeroan) pura ini:
     </p>
     
     <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">1. Arca Raksasa Siwa Bhairawa (Bhairawa Bima)</h3>

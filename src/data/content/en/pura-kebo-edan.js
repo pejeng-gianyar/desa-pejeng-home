@@ -21,7 +21,7 @@ export default `
   <section class="mb-section-gap fade-in text-justify" id="penglihatan">
     <h2 class="font-display text-headline-md md:text-headline-lg mb-8 text-primary border-l-4 border-accent-gold pl-6">👀 What Are You Looking At Right Now?</h2>
     <p class="font-body text-body-md md:text-body-lg mb-paragraph-gap">
-      Look up from your phone and discover the two most extraordinary relics in the Utama Mandala (inner sanctum) area of this temple:
+      Look up from your phone and discover the three most extraordinary relics in the Utama Mandala (inner sanctum) area of this temple:
     </p>
     
     <h3 class="font-display text-title-lg md:text-headline-sm mb-4 text-primary mt-8">1. The Giant Siwa Bhairawa Statue (Bhairawa Bima)</h3>
