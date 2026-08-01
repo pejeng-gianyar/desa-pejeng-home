@@ -1,6 +1,6 @@
 <template>
   <section id="hero-section" class="relative min-h-[100dvh] flex items-center overflow-hidden">
-    <div class="absolute inset-0 -z-10 bg-fixed bg-center bg-cover" :style="{ backgroundImage: `url(${images.hero.village})` }">
+    <div class="absolute inset-0 -z-10 bg-scroll md:bg-fixed bg-center bg-cover" :style="{ backgroundImage: `url(${images.hero.village})` }">
       <div class="absolute inset-0 bg-gradient-to-r from-brown/80 via-brown/60 to-transparent" />
       <div class="absolute inset-0 texture-dots opacity-30" />
     </div>

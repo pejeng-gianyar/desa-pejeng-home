@@ -5,7 +5,7 @@
     <main>
       <ArticleHero :article="article" />
 
-      <PhotoGallery :images="article.gallery" />
+      <!-- <PhotoGallery :images="article.gallery" /> -->
 
       <div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-12">
         <ArticleContent v-if="contentHtml" :contentHtml="contentHtml" />
@@ -133,7 +133,7 @@ import ArticleContent from '../components/article/ArticleContent.vue'
 import PlaceSidebar from '../components/article/PlaceSidebar.vue'
 import BaseCard from '../components/common/BaseCard.vue'
 import SectionHeading from '../components/common/SectionHeading.vue'
-import PhotoGallery from '../components/article/PhotoGallery.vue'
+// import PhotoGallery from '../components/article/PhotoGallery.vue'
 
 const { t, locale } = useI18n()
 
