@@ -1,4 +1,4 @@
 export default {
   logo: '/images/logo.webp',
-  youtubeVideoId: 'MM2bTJbkqG0',
+  youtubeVideoId: '1QN5aqDEE1U',
 }

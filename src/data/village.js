@@ -5,5 +5,5 @@ export default {
     Pura: '30+',
     Banjar: '9',
   },
-  videoUrl: 'https://www.youtube.com/embed/MM2bTJbkqG0?si=sgNvpFHLGkmphMuK',
+  videoUrl: 'https://www.youtube.com/embed/1QN5aqDEE1U?si=TrQRdlY-sMb9X9bK',
 }

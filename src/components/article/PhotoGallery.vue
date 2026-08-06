@@ -37,14 +37,12 @@
         class="flex overflow-x-auto gap-4 pb-4 px-margin-mobile md:px-gutter snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] scroll-smooth"
       >
         <div
-        v-for="(_, index) in images"
+        v-for="(image, index) in images"
         :key="index"
-        class="flex-none w-[85%] sm:w-[60%] md:w-[45%] bg-brown/5 border border-outline-variant/20 aspect-video rounded-xl flex items-center justify-center snap-center transition-transform duration-300 hover:scale-[1.02] cursor-pointer hover:shadow-md"
+        class="flex-none w-[85%] sm:w-[60%] md:w-[45%] aspect-video rounded-xl overflow-hidden snap-center transition-transform duration-300 hover:scale-[1.02] cursor-pointer hover:shadow-md"
         @click="openLightbox(index)"
       >
-        <div class="w-full h-full flex items-center justify-center">
-          <span class="material-symbols-outlined text-4xl text-brown/20 group-hover:scale-110 transition-transform">photo_camera</span>
-        </div>
+        <img :src="image" :alt="$t('gallery.title')" loading="lazy" class="w-full h-full object-cover" />
       </div>
       </div>
     </div>
@@ -88,10 +86,15 @@
         </button>
 
         <div
-          class="w-[80vw] max-w-3xl aspect-video bg-brown/10 rounded-2xl flex items-center justify-center"
+          class="w-[80vw] max-w-3xl aspect-video rounded-2xl overflow-hidden"
           @click.stop
         >
-          <span class="material-symbols-outlined text-6xl text-white/20">photo_camera</span>
+          <img
+            v-if="lightboxIndex !== null"
+            :src="images[lightboxIndex]"
+            :alt="$t('gallery.title')"
+            class="w-full h-full object-cover"
+          />
         </div>
 
         <button
